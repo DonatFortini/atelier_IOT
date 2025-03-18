@@ -9,14 +9,13 @@ Bienvenue dans cet atelier IoT présenté lors du Forum des Maths ! L'objectif d
 - Comprendre les bases de l'IoT.
 - Mettre en place un **dashboard** pour surveiller la température.
 - Modifier la couleur d'une LED en fonction de la température mesurée.
-- Découvrir les mathématiques appliquées dans ce projet (ex. interpolation des couleurs, conversion d'unités, gestion des seuils).
+- Découvrir les mathématiques appliquées dans ce projet (ex. interpolation des couleurs, conversion d'unités).
 
 ## Matériel requis
 
 - **Carte de développement** (ESP32, Arduino, etc.).
 - **Capteur de température I2C** (Grove Temperature Sensor).
 - **LED RGB chaînable** (Grove Chainable RGB LED).
-- **Résistances** adaptées.
 - **Ordinateur** avec environnement de développement configuré (ex. VS Code, PlatformIO, Bun).
 
 ## Fonctionnalités principales
@@ -26,7 +25,6 @@ Bienvenue dans cet atelier IoT présenté lors du Forum des Maths ! L'objectif d
 - **Changement de couleur de la LED** en fonction de la température :
   - **Vert** : Température basse.
   - **Rouge** : Température élevée.
-- **Explication mathématique** : interpolation linéaire des couleurs, gestion des seuils numériques.
 
 ## Explication mathématique
 
@@ -71,9 +69,3 @@ int *LedManager::computeColor(float temp)
     return colors;
 }
 ```
-
-## Conclusion
-
-Cet atelier permet de combiner programmation, électronique et mathématiques pour une première approche de l'IoT. Grâce à un projet concret et interactif, les participants pourront mieux comprendre comment les capteurs et les microcontrôleurs interagissent avec des données physiques du monde réel.
-
-Amusez-vous bien et explorez les nombreuses possibilités offertes par l'IoT ! 🚀
