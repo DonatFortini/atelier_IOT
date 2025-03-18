@@ -36,7 +36,7 @@ $$ C*{out} = \dfrac{T - T*{min}}{T*{max} - T*{min}} \times (C*{max} - C*{min}) +
 
 où :
 
-$$ \begin{align*} - & \, T \text{ est la température actuelle}, \\ - & \, T_{min}, T_{max} \text{ sont les valeurs limites}, \\ - & \, C_{min}, C_{max} \text{ sont les couleurs associées aux températures min et max}. \end{align*} $$
+$$ \begin{align*} \\\\ - & \, T \text{ est la température actuelle}, \\\\ - & \, T_{min}, T_{max} \text{ sont les valeurs limites}, \\\\ - & \, C_{min}, C_{max} \text{ sont les couleurs associées aux températures min et max}. \end{align*} $$
 
 L'algorithme utilisé est le suivant :
 
