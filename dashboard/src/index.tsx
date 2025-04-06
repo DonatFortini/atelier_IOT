@@ -13,6 +13,7 @@ interface sensorData {
 }
 
 const server = serve({
+  port: 7541,
   routes: {
     "/*": index,
 
