@@ -24,8 +24,8 @@
 #define WIFI_PASS "dragino+dragino"
 
 // API settings
-#define API_HOST "http://10.130.1.100"
-#define API_PORT 3000
+#define API_HOST "http://10.130.1.102"
+#define API_PORT 7541
 #define API_ENDPOINT "/api/temperature"
 
 #endif
